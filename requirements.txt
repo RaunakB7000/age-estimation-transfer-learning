@@ -1,0 +1,15 @@
+# Notebooks were developed on Python 3.9 (kernel "ageproj") with an NVIDIA GPU; CPU also works for inference.
+torch>=2.0
+torchvision>=0.15
+numpy
+scikit-learn
+seaborn
+matplotlib
+tqdm
+pillow
+opencv-contrib-python
+# MediaPipe removed the legacy `mp.solutions` API in newer releases (0.10.31 no longer has it);
+# the notebooks use mp.solutions.face_detection, so pin a release that still ships it.
+mediapipe==0.10.21
+notebook
+ipykernel

@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+~$*
+
+# Datasets are not committed (see README): download UTKFace into data/UTKFace
+data/
